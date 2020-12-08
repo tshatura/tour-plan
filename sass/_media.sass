@@ -247,7 +247,19 @@
         align-items: flex-start
         &__mt
           margin-top: 0px
+  .modal
+    &__dialog
+      &--visible
+        height: 90%
+        overflow-y: scroll
+    &__button
+      width: 100%
+      margin-bottom: 15px
 @media (max-width: 576px)
+  .body
+    &-pt
+      &-scroll-none
+        overflow-y: hidden
   .logo
     width: 99px
   .hotel
@@ -305,3 +317,8 @@
         align-items: flex-start
         &__mt
           margin-top: -30px
+  .modal
+    &__dialog
+      &--visible
+        width: 80%
+        height: 90%
