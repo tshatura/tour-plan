@@ -1854,6 +1854,9 @@ template {
   .footer-bottom-image__mt {
     margin-top: 0px;
   }
+  .modal__dialog {
+    padding: 20px 30px;
+  }
   .modal__dialog--visible {
     height: 90%;
     overflow-y: scroll;
